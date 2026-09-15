@@ -57,7 +57,7 @@ export const POSITIONS = {
 
   // Fixed paragraph area: below divider line, above signature/QR area.
   paragraph: {
-    x: 306,
+    x: 350,
     topY: 621,
     maxWidth: 838,
     lineHeight: 28,
@@ -75,7 +75,7 @@ export const POSITIONS = {
 export const FONT = {
   reference: 'italic 22px "Times New Roman", serif',
   name: 'italic 40px "Times New Roman", serif',
-  paragraph: 'italic 19px Arial, sans-serif',
+  paragraph: 'italic 19.5px Arial, sans-serif',
   paragraphBold: 'bold italic 19px Arial, sans-serif',
 };
 

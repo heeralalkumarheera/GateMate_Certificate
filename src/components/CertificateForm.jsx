@@ -42,7 +42,7 @@ export default function CertificateForm({ data, onChange, onGenerate }) {
           name="referenceNo"
           value={data.referenceNo}
           onChange={onChange}
-          placeholder="GM/2026/M0275/ICC"
+          placeholder="GM/2026/M0123/ICC"
           required
         />
 
