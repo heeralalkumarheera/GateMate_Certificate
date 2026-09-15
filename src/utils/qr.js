@@ -63,6 +63,7 @@ export async function makeQrDataUrl(data, size = 170) {
   return QRCode.toDataURL(buildVerificationUrl(data), {
     width: size,
     margin: 4,
-    errorCorrectionLevel: 'M',
+    errorCorrectionLevel:'L',
+    type: 'image/png',
   });
 }

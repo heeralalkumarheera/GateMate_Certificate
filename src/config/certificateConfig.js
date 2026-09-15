@@ -67,8 +67,8 @@ export const POSITIONS = {
   // Single generated QR. The original QR is erased in the master template.
   qr: {
     x: 715,
-    y: 805,
-    size: 170,
+    y: 797,
+    size: 190,
   },
 };
 
